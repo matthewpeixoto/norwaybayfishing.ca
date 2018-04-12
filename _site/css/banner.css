@@ -1,0 +1,9 @@
+.banner {
+  height: 90vh;
+
+  background-image: url('http://via.placeholder.com/2560x1440');
+  background-size: cover;
+  background-position: center center;
+
+  color: #fff;
+}

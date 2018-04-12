@@ -1,0 +1,33 @@
+html {
+  min-width: 320px;
+
+  font-family: brother-1816, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: var(--color-text);
+}
+
+h1,
+h2 {
+  font-weight: 800;
+}
+
+.wrapper {
+  max-width: 58em;
+}
+
+.medium {
+  font-weight: 500;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+@media only screen and (min-width: 46em) {
+
+  .m-text-left {
+    text-align: left;
+  }
+
+}

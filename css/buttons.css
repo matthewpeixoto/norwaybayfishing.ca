@@ -1,0 +1,38 @@
+a:focus,
+[tabindex="0"]:focus,
+details:focus,
+summary:focus,
+input:focus,
+textarea:focus,
+button:focus,
+select:focus {
+  outline: 3px solid var(--color-focus);
+  outline-offset: 0;
+}
+
+a:focus, [tabindex="0"]:focus {
+  outline-offset: 3px;
+}
+
+.btn {
+  background-color: var(--color-accent);
+  border: 0;
+
+  font-weight: 900;
+}
+
+.btn:focus {
+  background-color: var(--color-accent);
+  outline: 0;
+  box-shadow: 0 0 0 3px var(--color-focus);
+}
+
+.btn:hover {
+  background-color: var(--color-accent-hover);
+  transform: translateY(-1px);
+}
+
+.btn:active {
+  background-color: var(--color-accent-active);
+  transform: translateY(1px);
+}
