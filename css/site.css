@@ -9,5 +9,7 @@
 {% include_relative header.css %}
 {% include_relative buttons.css %}
 {% include_relative banner.css %}
+{% include_relative hamburger.css %}
+{% include_relative prices.css %}
 
 

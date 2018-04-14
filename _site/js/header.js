@@ -1,4 +1,13 @@
-$('.btn-menu').click(function() {
-  $('.nav').slideToggle('2000');
-  $('body').toggleClass('overflow-hidden');
+var $toggleMenu = $('#toggle-menu');
+
+$(document).ready(function(){
+
+  $toggleMenu.click(function () {
+    $('.menu-container').slideToggle(550);
+    $('.menu-item').toggleClass('js-menu-item-active');
+    $('.hamburger').toggleClass('is-active');
+    $('body').toggleClass('overflow-hidden');
+  });
+
 });
+
