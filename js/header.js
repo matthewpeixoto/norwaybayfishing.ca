@@ -9,5 +9,12 @@ $(document).ready(function(){
     $('body').toggleClass('overflow-hidden');
   });
 
+  $('.menu-link').click(function () {
+    $('.menu-container').slideToggle(550);
+    $('.menu-item').removeClass('js-menu-item-active');
+    $('.hamburger').removeClass('is-active');
+    $('body').removeClass('overflow-hidden');
+  });
+
 });
 

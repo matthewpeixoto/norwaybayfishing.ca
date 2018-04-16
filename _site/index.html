@@ -75,33 +75,39 @@
   <main role="main">
     <section class="banner text-center">
   <div class="wrapper gutter pad-t-4">
-    <h2>The best fishing of&nbsp;your&nbsp;life.</h2>
-    <p class="mega">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
-    <a class="mega btn" href="#">See Prices</a>
+    <h2 class="waypoint">The best fishing of&nbsp;your&nbsp;life.</h2>
+    <p class="mega waypoint waypoint-2">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+    <a class="mega btn waypoint waypoint-3" href="#prices">See Prices</a>
   </div>
 </section>
 
 <section id="about">
   <div class="wrapper gutter pad-t-4 pad-b-4 text-center ">
-    <h2>We don't just catch fish.<br>We catch trophies.</h2>
-    <p class="max-length push-4">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+    <h2 class="waypoint">We don't just catch fish.<br>We catch trophies.</h2>
+    <p class="waypoint waypoint-2 max-length push-4">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
 
     <div class="grid color-brand">
       <div class="unit s-1 m-1-3 push-2 m-push-0">
         <div class="gutter-1-2 bold">
-          <div class="zetta">500+</div>
+          <div class="stat-container">
+            <span class='numscroller zetta' data-min='1' data-max='500' data-delay='1.1' data-increment='5'>0</span>
+            <span class="zetta">+</span>
+          </div>
           <p class="mega">fish caught in 2017</p>
         </div>
       </div>
       <div class="unit s-1 m-1-3 push-2 m-push-0">
         <div class="gutter-1-2 bold">
-          <div class="zetta">23</div>
+          <span class='numscroller zetta' data-min='1' data-max='23' data-delay='.8' data-increment='1'>0</span>
           <p class="mega">muskies caught in 2017</p>
         </div>
       </div>
       <div class="unit s-1 m-1-3">
         <div class="gutter-1-2 bold">
-          <div class="zetta">8lb</div>
+          <div class="stat-container">
+            <span class='numscroller zetta' data-min='1' data-max='8' data-delay='.85' data-increment='1'>0</span>
+            <span class="zetta">lb</span>
+          </div>
           <p class="mega">bass caught in 2016</p>
         </div>
       </div>
@@ -111,8 +117,8 @@
 
 <section class="bg-ul" id="location">
   <div class="wrapper gutter pad-t-4 pad-b-4 text-center ">
-    <h2>Located in big fish territory.</h2>
-    <p class="max-length push-4">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+    <h2 class="waypoint">Located in big fish territory.</h2>
+    <p class="waypoint waypoint-2 max-length push-4">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
 
     <div class="embed embed-16by9">
       <iframe class="embed-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11182.517256654999!2d-76.4378287565935!3d45.51754020086481!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDXCsDMxJzAzLjEiTiA3NsKwMjUnNDQuNyJX!5e0!3m2!1sen!2sca!4v1523723276711" frameborder="0" style="border:0" allowfullscreen></iframe>
@@ -123,8 +129,8 @@
 
 <section class="bg-ul" id="prices">
   <div class="wrapper gutter pad-t-4 pad-b-4 text-center">
-    <h2>Check out our prices.</h2>
-    <p class="push-4">With our 3 packages we bring you the greatest fishing experiences for by far the lowest prices. If none of the packages suit you exactly, get in contact with us so we can accommodate to what you want.</p>
+    <h2 class="waypoint">Check out our prices.</h2>
+    <p class="waypoint waypoint-2 max-length push-4">With our 3 packages we bring you the greatest fishing experiences for by far the lowest prices. If none of the packages suit you exactly, get in contact with us so we can accommodate to what you want.</p>
 
     <div class="grid">
       <div class="unit s-1 l-1-3 push l-push-0">
@@ -169,6 +175,9 @@
   </footer>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="/js/jquery.waypoints.min.js"></script>
+  <script src="/js/numscroller-1.0.js"></script>
   <script src="/js/header.js"></script>
+  <script src="/js/waypoints.js"></script>
 </body>
 </html>

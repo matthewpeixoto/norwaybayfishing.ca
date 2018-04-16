@@ -1,0 +1,21 @@
+.waypoint {
+  opacity: 0;
+  transform: translateY(50px);
+
+  transition: transform, opacity, -webkit-transform;
+  transition-duration: 1s;
+  transition-timing-function: cubic-bezier(0.38, 0.32, 0.36, 0.98);
+}
+
+.waypoint-2 {
+  transition-delay: .15s;
+}
+
+.waypoint-3 {
+  transition-delay: .2s;
+}
+
+.js-waypoint-active {
+  opacity: 1;
+  transform: translateY(0);
+}

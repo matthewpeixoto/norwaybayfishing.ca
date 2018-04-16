@@ -11,5 +11,6 @@
 {% include_relative banner.css %}
 {% include_relative hamburger.css %}
 {% include_relative prices.css %}
+{% include_relative waypoints.css %}
 
 

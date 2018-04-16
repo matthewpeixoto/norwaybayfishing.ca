@@ -6,12 +6,12 @@
   --color-accent-active: #00ab94;
   --color-focus: rgba(29, 233, 182, .5);
 
-  --color-ultralight: #fafafa;
+  --color-ultralight: #F5F9F8;
   --color-light: #f2f2f2;
   --color-dark: #1a1a1a;
   --color-ultradark: #101010;
 
-  --color-text: #212121;
+  --color-text: #1E2C2A;
 }
 
 .bg-brand {

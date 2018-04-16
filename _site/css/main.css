@@ -44,6 +44,10 @@ h2 {
   overflow: hidden;
 }
 
+.stat-container {
+  font-size: 0;
+}
+
 @media only screen and (min-width: 46em) {
 
   .m-text-left {
