@@ -12,10 +12,22 @@
 }
 
 .waypoint-3 {
-  transition-delay: .2s;
+  transition-delay: .3s;
+}
+
+.waypoint-4 {
+  transition-delay: .45s;
+}
+
+.waypoint-5 {
+  transition-delay: .6s;
+}
+
+.waypoint-6 {
+  transition-delay: .75s;
 }
 
 .js-waypoint-active {
   opacity: 1;
-  transform: translateY(0);
+  transform: none;
 }

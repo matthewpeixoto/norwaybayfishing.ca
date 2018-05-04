@@ -2603,6 +2603,10 @@ h2 {
   margin-bottom: 5.2rem
 }
 
+.border-b {
+  border-bottom: 1px solid #e0e0e0;
+}
+
 .white {
   color: #fff;
 }
@@ -2657,30 +2661,46 @@ h2 {
     margin-bottom: 0;
   }
 
+  .l-wrapper {
+    max-width: 58em;
+  }
+
 }
 
 :root {
-  --color-brand: #009688;
+  --color-brand: #00BCD4;
+  --color-brand-50: #E0F2F1;
+  --color-brand-100: #B2DFDB;
+  --color-brand-200: #80CBC4;
 
-  --color-accent: #00BFA5;
-  --color-accent-hover: #19c5ae;
-  --color-accent-active: #00ab94;
-  --color-focus: rgba(29, 233, 182, .5);
+  --color-accent: #00E5FF;
+  --color-accent-hover: #19e7ff;
+  --color-accent-active: #00cee5;
+  --color-focus: rgba(0, 229, 255, .5);
 
-  --color-ultralight: #F5F9F8;
+  --color-ultralight: #F5F9FA;
   --color-light: #f2f2f2;
   --color-dark: #1a1a1a;
   --color-ultradark: #101010;
 
-  --color-text: #1E2C2A;
+  --color-text: #0F1819;
 }
 
 .bg-brand {
   background-color: var(--color-brand);
 }
 
+.bg-wave {
+  background-color: #00acc1;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='250' height='30' viewBox='0 0 1000 120'%3E%3Cg fill='none' stroke='%2300bcd4' stroke-width='10' %3E%3Cpath d='M-500 75c0 0 125-30 250-30S0 75 0 75s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 45c0 0 125-30 250-30S0 45 0 45s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 105c0 0 125-30 250-30S0 105 0 105s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 15c0 0 125-30 250-30S0 15 0 15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500-15c0 0 125-30 250-30S0-15 0-15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 135c0 0 125-30 250-30S0 135 0 135s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3C/g%3E%3C/svg%3E");
+}
+
 .bg-ul {
   background-color: var(--color-ultralight);
+}
+
+.bg-brand-50 {
+  background-color: var(--color-brand-50);
 }
 
 .bg-white {
@@ -2691,10 +2711,12 @@ h2 {
   color: var(--color-brand);
 }
 
+.color-neutral {
+  color: #757575;
+}
+
 .header {
   min-width: 320px;
-  background-color: #00897b;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='250' height='30' viewBox='0 0 1000 120'%3E%3Cg fill='none' stroke='%23009688' stroke-width='10' %3E%3Cpath d='M-500%2C75c0%2C0%2C125-30%2C250-30S0%2C75%2C0%2C75s125%2C30%2C250%2C30s250-30%2C250-30s125-30%2C250-30s250%2C30%2C250%2C30s125%2C30%2C250%2C30s250-30%2C250-30'/%3E%3Cpath d='M-500%2C45c0%2C0%2C125-30%2C250-30S0%2C45%2C0%2C45s125%2C30%2C250%2C30s250-30%2C250-30s125-30%2C250-30s250%2C30%2C250%2C30s125%2C30%2C250%2C30s250-30%2C250-30'/%3E%3Cpath d='M-500%2C105c0%2C0%2C125-30%2C250-30S0%2C105%2C0%2C105s125%2C30%2C250%2C30s250-30%2C250-30s125-30%2C250-30s250%2C30%2C250%2C30s125%2C30%2C250%2C30s250-30%2C250-30'/%3E%3Cpath d='M-500%2C15c0%2C0%2C125-30%2C250-30S0%2C15%2C0%2C15s125%2C30%2C250%2C30s250-30%2C250-30s125-30%2C250-30s250%2C30%2C250%2C30s125%2C30%2C250%2C30s250-30%2C250-30'/%3E%3Cpath d='M-500-15c0%2C0%2C125-30%2C250-30S0-15%2C0-15s125%2C30%2C250%2C30s250-30%2C250-30s125-30%2C250-30s250%2C30%2C250%2C30s125%2C30%2C250%2C30s250-30%2C250-30'/%3E%3Cpath d='M-500%2C135c0%2C0%2C125-30%2C250-30S0%2C135%2C0%2C135s125%2C30%2C250%2C30s250-30%2C250-30s125-30%2C250-30s250%2C30%2C250%2C30s125%2C30%2C250%2C30s250-30%2C250-30'/%3E%3C/g%3E%3C/svg%3E");
 }
 
 .header a,
@@ -2715,8 +2737,6 @@ h2 {
   height: 100vh;
   min-width: 320px;
 
-  background-color: #00897b;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='250' height='30' viewBox='0 0 1000 120'%3E%3Cg fill='none' stroke='%23009688' stroke-width='10' %3E%3Cpath d='M-500%2C75c0%2C0%2C125-30%2C250-30S0%2C75%2C0%2C75s125%2C30%2C250%2C30s250-30%2C250-30s125-30%2C250-30s250%2C30%2C250%2C30s125%2C30%2C250%2C30s250-30%2C250-30'/%3E%3Cpath d='M-500%2C45c0%2C0%2C125-30%2C250-30S0%2C45%2C0%2C45s125%2C30%2C250%2C30s250-30%2C250-30s125-30%2C250-30s250%2C30%2C250%2C30s125%2C30%2C250%2C30s250-30%2C250-30'/%3E%3Cpath d='M-500%2C105c0%2C0%2C125-30%2C250-30S0%2C105%2C0%2C105s125%2C30%2C250%2C30s250-30%2C250-30s125-30%2C250-30s250%2C30%2C250%2C30s125%2C30%2C250%2C30s250-30%2C250-30'/%3E%3Cpath d='M-500%2C15c0%2C0%2C125-30%2C250-30S0%2C15%2C0%2C15s125%2C30%2C250%2C30s250-30%2C250-30s125-30%2C250-30s250%2C30%2C250%2C30s125%2C30%2C250%2C30s250-30%2C250-30'/%3E%3Cpath d='M-500-15c0%2C0%2C125-30%2C250-30S0-15%2C0-15s125%2C30%2C250%2C30s250-30%2C250-30s125-30%2C250-30s250%2C30%2C250%2C30s125%2C30%2C250%2C30s250-30%2C250-30'/%3E%3Cpath d='M-500%2C135c0%2C0%2C125-30%2C250-30S0%2C135%2C0%2C135s125%2C30%2C250%2C30s250-30%2C250-30s125-30%2C250-30s250%2C30%2C250%2C30s125%2C30%2C250%2C30s250-30%2C250-30'/%3E%3C/g%3E%3C/svg%3E");
   display: none;
 }
 
@@ -2820,7 +2840,7 @@ a:focus, [tabindex="0"]:focus {
 .banner {
   height: 90vh;
 
-  background-image: url('http://via.placeholder.com/2560x1440');
+  /* background-image: url('/images/hero.jpg'); */
   background-size: cover;
   background-position: center center;
 
@@ -2904,7 +2924,6 @@ a:focus, [tabindex="0"]:focus {
   background-color: #fff!important;
 }
 
-
 .waypoint {
   opacity: 0;
   transform: translateY(50px);
@@ -2919,12 +2938,57 @@ a:focus, [tabindex="0"]:focus {
 }
 
 .waypoint-3 {
-  transition-delay: .2s;
+  transition-delay: .3s;
+}
+
+.waypoint-4 {
+  transition-delay: .45s;
+}
+
+.waypoint-5 {
+  transition-delay: .6s;
+}
+
+.waypoint-6 {
+  transition-delay: .75s;
 }
 
 .js-waypoint-active {
   opacity: 1;
-  transform: translateY(0);
+  transform: none;
+}
+
+
+/* #prices {
+  background-color: var(--color-brand);
+  color: #fff;
+} */
+
+.unit-package {
+  border-left: .65rem solid var(--color-ultralight);
+  border-right: .65rem solid var(--color-ultralight);
+}
+
+/* .unit-package {
+  background-color: var(--color-brand-100);
+} */
+
+@media only screen and (min-width: 46em) {
+
+  .unit-package {
+    border-left-width: .7rem;
+    border-right-width: .7rem;
+  }
+
+}
+
+@media only screen and (min-width: 67em) {
+
+  .unit-package {
+    border-left-width: .75rem;
+    border-right-width: .75rem;
+  }
+
 }
 
 

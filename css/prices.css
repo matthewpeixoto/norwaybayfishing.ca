@@ -1,0 +1,31 @@
+/* #prices {
+  background-color: var(--color-brand);
+  color: #fff;
+} */
+
+.unit-package {
+  border-left: .65rem solid var(--color-ultralight);
+  border-right: .65rem solid var(--color-ultralight);
+}
+
+/* .unit-package {
+  background-color: var(--color-brand-100);
+} */
+
+@media only screen and (min-width: 46em) {
+
+  .unit-package {
+    border-left-width: .7rem;
+    border-right-width: .7rem;
+  }
+
+}
+
+@media only screen and (min-width: 67em) {
+
+  .unit-package {
+    border-left-width: .75rem;
+    border-right-width: .75rem;
+  }
+
+}

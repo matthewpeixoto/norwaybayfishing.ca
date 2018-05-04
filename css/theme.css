@@ -1,25 +1,37 @@
 :root {
-  --color-brand: #009688;
+  --color-brand: #00BCD4;
+  --color-brand-50: #E0F2F1;
+  --color-brand-100: #B2DFDB;
+  --color-brand-200: #80CBC4;
 
-  --color-accent: #00BFA5;
-  --color-accent-hover: #19c5ae;
-  --color-accent-active: #00ab94;
-  --color-focus: rgba(29, 233, 182, .5);
+  --color-accent: #00E5FF;
+  --color-accent-hover: #19e7ff;
+  --color-accent-active: #00cee5;
+  --color-focus: rgba(0, 229, 255, .5);
 
-  --color-ultralight: #F5F9F8;
+  --color-ultralight: #F5F9FA;
   --color-light: #f2f2f2;
   --color-dark: #1a1a1a;
   --color-ultradark: #101010;
 
-  --color-text: #1E2C2A;
+  --color-text: #0F1819;
 }
 
 .bg-brand {
   background-color: var(--color-brand);
 }
 
+.bg-wave {
+  background-color: #00acc1;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='250' height='30' viewBox='0 0 1000 120'%3E%3Cg fill='none' stroke='%2300bcd4' stroke-width='10' %3E%3Cpath d='M-500 75c0 0 125-30 250-30S0 75 0 75s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 45c0 0 125-30 250-30S0 45 0 45s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 105c0 0 125-30 250-30S0 105 0 105s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 15c0 0 125-30 250-30S0 15 0 15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500-15c0 0 125-30 250-30S0-15 0-15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 135c0 0 125-30 250-30S0 135 0 135s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3C/g%3E%3C/svg%3E");
+}
+
 .bg-ul {
   background-color: var(--color-ultralight);
+}
+
+.bg-brand-50 {
+  background-color: var(--color-brand-50);
 }
 
 .bg-white {
@@ -28,4 +40,8 @@
 
 .color-brand {
   color: var(--color-brand);
+}
+
+.color-neutral {
+  color: #757575;
 }

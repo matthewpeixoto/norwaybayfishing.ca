@@ -36,6 +36,10 @@ h2 {
   margin-bottom: 5.2rem
 }
 
+.border-b {
+  border-bottom: 1px solid #e0e0e0;
+}
+
 .white {
   color: #fff;
 }
@@ -88,6 +92,10 @@ h2 {
 
   .l-push-0 {
     margin-bottom: 0;
+  }
+
+  .l-wrapper {
+    max-width: 58em;
   }
 
 }
