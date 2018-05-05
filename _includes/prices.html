@@ -1,38 +1,37 @@
-<section class="bg-ul" id="prices">
+<section class="bg-ul" id="trips">
   <div class="wrapper pad-t-4 pad-b-4 text-center">
     <div class="gutter">
-      <h2 class="waypoint">Lorem ipsum dolor sit amet.</h2>
+      <h2 class="waypoint">Find your perfect&nbsp;trip.</h2>
       <p class="waypoint waypoint-2 max-length push-4">With our 3 packages we bring you the greatest fishing experiences for by far the lowest prices. If none of the packages suit you exactly, get in contact with us so we can accommodate to what you want.</p>
     </div>
 
     <div class="grid grid-stretch gutter-1-2 max-length l-wrapper">
-      <div class="unit-package unit unit-content-distribute s-1 l-1-3 push l-push-0 waypoint waypoint-3 gutter pad-t-2 pad-b-2 bg-white">
-        <i class="icon i-64 push center-block">
-          <img src="http://placehold.it/64x64" alt="">
-        </i>
-        <h3 class="mega push-1-8">Basic</h3>
-        <p class="push-1-2">2 hours of fishing</p>
-        <div class="color-brand bold peta push pad-b border-b">$100</div>
-        <p class="push-0 text-left milli content-fill max-length">Perfect for those who just want to get a feel of what fishing really is. We also recommend that you choose either morning or evening hours for this.</p>
-      </div>
-      <div class="unit-package unit unit-content-distribute s-1 l-1-3 push l-push-0 waypoint waypoint-3 gutter pad-t-2 pad-b-2 bg-white">
-        <i class="icon i-64 push center-block">
-          <img src="http://placehold.it/64x64" alt="">
-        </i>
-        <h3 class="mega push-1-8">Will</h3>
-        <p class="push-1-2">Half day of fishing</p>
-        <div class="color-brand bold peta push pad-b border-b">$150</div>
-        <p class="push-0 text-left milli content-fill max-length">Perfect for those who just want to get a feel of what fishing really is. We also recommend that you choose either morning or evening hours for this.</p>
-      </div>
-      <div class="unit-package unit unit-content-distribute s-1 l-1-3 push l-push-0 waypoint waypoint-3 gutter pad-t-2 pad-b-2 bg-white">
-        <i class="icon i-64 push center-block">
-          <img src="http://placehold.it/64x64" alt="">
-        </i>
-        <h3 class="mega push-1-8">Pro</h3>
-        <p class="push-1-2">Full day of fishing</p>
-        <div class="color-brand bold peta push pad-b border-b">$250</div>
-        <p class="push-0 text-left milli content-fill max-length">Perfect for those who just want to get a feel of what fishing really is. We also recommend that you choose either morning or evening hours for this.</p>
-      </div>
+      {% include package.html
+        waypoint-pos="3"
+        h3="Basic"
+        h4="2 hours of fishing"
+        price="$100"
+        desc="Lorem"
+      %}
+
+        {% include package.html
+        waypoint-pos="4"
+        h3="Will"
+        h4="Half day of fishing"
+        price="$175"
+        desc="Lorem"
+      %}
+
+        {% include package.html
+        waypoint-pos="5"
+        h3="Pro"
+        h4="Full day of fishing"
+        price="$250"
+        desc="Lorem"
+      %}
+
+
+
     </div>
   </div>
 </section>
