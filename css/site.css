@@ -7,10 +7,11 @@
 {% include_relative main.css %}
 {% include_relative theme.css %}
 {% include_relative header.css %}
-{% include_relative buttons.css %}
 {% include_relative banner.css %}
 {% include_relative hamburger.css %}
-{% include_relative prices.css %}
 {% include_relative waypoints.css %}
+{% include_relative gallery.css %}
+{% include_relative prices.css %}
+{% include_relative buttons.css %}
 
 
