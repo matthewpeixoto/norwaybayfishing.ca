@@ -52,6 +52,17 @@ h2 {
   font-size: 0;
 }
 
+.section-media {
+  height: 400px
+}
+
+.section-media-about {
+  background-image: url("{{site.baseurl}}/images/about.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+
 @media only screen and (min-width: 46em) {
 
   .m-text-left {
@@ -74,7 +85,12 @@ h2 {
     margin-bottom: 0;
   }
 
+  .section-media {
+    height: 600px
+  }
+
 }
+
 
 @media only screen and (min-width: 67em) {
 

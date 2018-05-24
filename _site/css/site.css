@@ -2619,6 +2619,17 @@ h2 {
   font-size: 0;
 }
 
+.section-media {
+  height: 400px
+}
+
+.section-media-about {
+  background-image: url("/images/about.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+
 @media only screen and (min-width: 46em) {
 
   .m-text-left {
@@ -2641,7 +2652,12 @@ h2 {
     margin-bottom: 0;
   }
 
+  .section-media {
+    height: 600px
+  }
+
 }
+
 
 @media only screen and (min-width: 67em) {
 
@@ -2919,6 +2935,35 @@ h2 {
   transform: translateY(0);
 }
 
+.embed-gallery-adapt-portrait,
+.embed-gallery-adapt-landscape {
+  height: 400px;
+  background-size: cover;
+}
+
+.photo-portrait-1 {
+  background-image: url("http://via.placeholder.com/800x1200");
+  background-position: center center;
+}
+
+.photo-landscape-1 {
+  background-image: url("http://via.placeholder.com/1200x800");
+  background-position: center center;
+}
+
+@media only screen and (min-width: 46em) {
+
+  .embed-gallery-adapt-portrait {
+    padding-top: 150%;
+    height: auto;
+  }
+
+  .embed-gallery-adapt-landscape {
+    padding-top: 66.6%;
+    height: auto;
+  }
+
+}
 
 .unit-package {
   border-left: .65rem solid var(--color-ultralight);
@@ -2979,6 +3024,9 @@ a:focus, [tabindex="0"]:focus {
   border: 0;
 
   font-weight: 900;
+  text-transform: uppercase;
+  box-shadow: 0 4px 6px rgba(0, 77, 64, .11), 0 1px 3px rgba(0,0,0,.08);
+  transition: all .15s ease;
 }
 
 .btn:focus {
@@ -2990,6 +3038,7 @@ a:focus, [tabindex="0"]:focus {
 .btn:hover {
   background-color: var(--color-accent-hover);
   transform: translateY(-1px);
+  box-shadow: 0 7px 14px rgba(0, 77, 64, .1), 0 3px 6px rgba(0,0,0,.08);
 }
 
 .btn:active {

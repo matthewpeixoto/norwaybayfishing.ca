@@ -19,6 +19,9 @@ a:focus, [tabindex="0"]:focus {
   border: 0;
 
   font-weight: 900;
+  text-transform: uppercase;
+  box-shadow: 0 4px 6px rgba(0, 77, 64, .11), 0 1px 3px rgba(0,0,0,.08);
+  transition: all .15s ease;
 }
 
 .btn:focus {
@@ -30,6 +33,7 @@ a:focus, [tabindex="0"]:focus {
 .btn:hover {
   background-color: var(--color-accent-hover);
   transform: translateY(-1px);
+  box-shadow: 0 7px 14px rgba(0, 77, 64, .1), 0 3px 6px rgba(0,0,0,.08);
 }
 
 .btn:active {

@@ -1,0 +1,29 @@
+.embed-gallery-adapt-portrait,
+.embed-gallery-adapt-landscape {
+  height: 400px;
+  background-size: cover;
+}
+
+.photo-portrait-1 {
+  background-image: url("http://via.placeholder.com/800x1200");
+  background-position: center center;
+}
+
+.photo-landscape-1 {
+  background-image: url("http://via.placeholder.com/1200x800");
+  background-position: center center;
+}
+
+@media only screen and (min-width: 46em) {
+
+  .embed-gallery-adapt-portrait {
+    padding-top: 150%;
+    height: auto;
+  }
+
+  .embed-gallery-adapt-landscape {
+    padding-top: 66.6%;
+    height: auto;
+  }
+
+}
