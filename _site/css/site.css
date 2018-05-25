@@ -2629,7 +2629,6 @@ h2 {
   background-position: center center;
 }
 
-
 @media only screen and (min-width: 46em) {
 
   .m-text-left {
@@ -2942,24 +2941,34 @@ h2 {
 }
 
 .photo-portrait-1 {
-  background-image: url("http://via.placeholder.com/800x1200");
+  background-image: url("/images/portrait-1.jpg");
   background-position: center center;
 }
 
 .photo-landscape-1 {
-  background-image: url("http://via.placeholder.com/1200x800");
+  background-image: url("/images/landscape-1.jpg");
+  background-position: center center;
+}
+
+.photo-portrait-2 {
+  background-image: url("/images/portrait-2.jpg");
+  background-position: center center;
+}
+
+.photo-landscape-2 {
+  background-image: url("/images/landscape-2.jpg");
   background-position: center center;
 }
 
 @media only screen and (min-width: 46em) {
 
   .embed-gallery-adapt-portrait {
-    padding-top: 150%;
+    padding-top: 133.3333%;
     height: auto;
   }
 
   .embed-gallery-adapt-landscape {
-    padding-top: 66.6%;
+    padding-top: 75%;
     height: auto;
   }
 
