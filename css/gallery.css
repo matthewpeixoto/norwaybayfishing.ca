@@ -15,7 +15,7 @@
 }
 
 .photo-portrait-2 {
-  background-image: url("{{site.baseurl}}/images/portrait-2.jpg");
+  background-image: url("{{site.baseurl}}/images/portrait-2 .jpg");
   background-position: center center;
 }
 
