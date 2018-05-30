@@ -36,4 +36,24 @@
     height: auto;
   }
 
+  .unit-gallery-left {
+    padding-right: .7rem;
+  }
+
+  .unit-gallery-right {
+    padding-left: .7rem;
+  }
+
+}
+
+@media only screen and (min-width: 67em) {
+
+  .unit-gallery-left {
+    padding-right: .75rem;
+  }
+
+  .unit-gallery-right {
+    padding-left: .75rem;
+  }
+
 }

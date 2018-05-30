@@ -13,7 +13,12 @@ h2 {
 }
 
 .wrapper {
-  max-width: 58em;
+  max-width: 52em;
+  width: 87.5%;
+}
+
+.nav-wrapper {
+  width: 100%;
 }
 
 .medium {
