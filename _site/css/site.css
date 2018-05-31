@@ -3129,6 +3129,10 @@ h2 {
   color: #fff;
 }
 
+.color-text{
+  color: var(--color-text);
+}
+
 .header {
   min-width: 320px;
 }

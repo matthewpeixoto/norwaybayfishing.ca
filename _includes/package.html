@@ -1,9 +1,9 @@
 <div class="bg-white unit-package unit gutter pad-t-2 pad-b-2 unit-content-distribute s-1 l-1-3 push l-push-0 waypoint waypoint-{{include.waypoint-pos}} trip-{{include.waypoint-pos}}">
-    <i class="icon i-64 center-block push">
-      <img src="http://placehold.it/64x64" alt="">
+    <i class="icon i-64 center-block push-2">
+      <img src="{{site.baseurl}}/images/{{include.image}}.png" alt="">
     </i>
-    <h3 class="mega push-1-4">{{include.h3}}</h3>
-    <div class="color-brand bold peta push">{{include.price}}</div>
+    <h3 class="mega push-1-4 color-text">{{include.h3}}</h3>
+    <div class="color-brand bold peta push {{include.price-color}}">{{include.price}}</div>
     <ul class="list-group package-benefits color-neutral milli push-2 content-fill">
       {% if include.point-1 %}<li class="push-1-2">{{include.point-1}}</li>{% endif %}
       {% if include.point-2 %}<li class="push-1-2">{{include.point-2}}</li>{% endif %}
