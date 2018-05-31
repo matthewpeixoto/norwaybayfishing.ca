@@ -12,6 +12,7 @@
 {% include_relative waypoints.css %}
 {% include_relative gallery.css %}
 {% include_relative prices.css %}
+{% include_relative contact.css %}
 {% include_relative buttons.css %}
 
 

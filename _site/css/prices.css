@@ -1,3 +1,7 @@
+.package-benefits li:last-child {
+  margin-bottom: 0;
+}
+
 @media only screen and (min-width: 67em) {
 
   .trip-3 {

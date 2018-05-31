@@ -159,16 +159,16 @@
     <i class="icon i-64 center-block push">
       <img src="http://placehold.it/64x64" alt="">
     </i>
-    <h3 class="mega push-1-2">Quarter Day</h3>
-    <div class="color-brand bold peta push pad-b border-b">$95</div>
-    <ul class="list-group push-2 text-left milli content-fill">
+    <h3 class="mega push-1-4">Quarter Day</h3>
+    <div class="color-brand bold peta push">$95</div>
+    <ul class="list-group package-benefits color-neutral milli push-2 content-fill">
       <li class="push-1-2">Guaranteed fish</li>
       <li class="push-1-2">All tackle supplied</li>
-      <li class="push-1-2">Guaranteed to have a great time</li>
-      <li class="push-1-2"></li>
-      <li class="push-1-2"></li>
-      <li class="push-1-2"></li>
-      <li class="push-1-2"></li>
+      <li class="push-1-2">Guaranteed great time</li>
+      
+      
+      
+      
     </ul>
     <a href="mailto:norwaybayfishing@gmail.com?Subject=" class="btn content-shrink">Get started</a>
 </div>
@@ -178,16 +178,16 @@
     <i class="icon i-64 center-block push">
       <img src="http://placehold.it/64x64" alt="">
     </i>
-    <h3 class="mega push-1-2">Half Day</h3>
-    <div class="color-brand bold peta push pad-b border-b">$190</div>
-    <ul class="list-group push-2 text-left milli content-fill">
+    <h3 class="mega push-1-4">Half Day</h3>
+    <div class="color-brand bold peta push">$190</div>
+    <ul class="list-group package-benefits color-neutral milli push-2 content-fill">
       <li class="push-1-2">Guaranteed fish</li>
       <li class="push-1-2">All tackle supplied</li>
       <li class="push-1-2">Norway Bay Fishing t-shirt for every person</li>
-      <li class="push-1-2">Guaranteed to have a great time</li>
-      <li class="push-1-2"></li>
-      <li class="push-1-2"></li>
-      <li class="push-1-2"></li>
+      <li class="push-1-2">Guaranteed great time</li>
+      
+      
+      
     </ul>
     <a href="mailto:norwaybayfishing@gmail.com?Subject=" class="btn content-shrink">Get started</a>
 </div>
@@ -197,16 +197,16 @@
     <i class="icon i-64 center-block push">
       <img src="http://placehold.it/64x64" alt="">
     </i>
-    <h3 class="mega push-1-2">Full Day</h3>
-    <div class="color-brand bold peta push pad-b border-b">$390</div>
-    <ul class="list-group push-2 text-left milli content-fill">
+    <h3 class="mega push-1-4">Full Day</h3>
+    <div class="color-brand bold peta push">$390</div>
+    <ul class="list-group package-benefits color-neutral milli push-2 content-fill">
       <li class="push-1-2">Guaranteed multiple fish</li>
       <li class="push-1-2">All tackle supplied</li>
-      <li class="push-1-2">Guaranteed to have a great time</li>
+      <li class="push-1-2">Guaranteed great time</li>
       <li class="push-1-2">Norway Bay Fishing t-shirt for every person</li>
       <li class="push-1-2">1-2 hour lunch break</li>
       <li class="push-1-2">Free lunch (burgers or hotdogs)</li>
-      <li class="push-1-2"></li>
+      
     </ul>
     <a href="mailto:norwaybayfishing@gmail.com?Subject=" class="btn content-shrink">Get started</a>
 </div>
@@ -227,20 +227,30 @@
 
         <div class="push">
           <label for="name" class="push-1-8 text-upper milli color-neutral bold">Name</label>
-          <input id="name" class="w-1" name="name" placeholder="Bob Izumi">
+          <input type="text" name="name" placeholder="Bob Izumi" id="name" class="w-1">
         </div>
 
         <div class="push">
           <label for="email" class="push-1-8 text-upper milli color-neutral bold">Email</label>
-          <input id="email" class="w-1" name="email" placeholder="bobizumi@gmail.com">
+          <input type="email" name="_replyto" placeholder="bob@izumi.com" id="email" class="w-1">
+        </div>
+
+        <div class="push">
+          <label for="subject" class="push-1-8 text-upper milli color-neutral bold">Subject</label>
+          <select name="_subject" id="subject">
+            <option>Manitoba</option>
+            <option>Ontario</option>
+            <option>Quebec</option>
+          </select>
         </div>
 
         <div class="push-1-2">
           <label for="message" class="push-1-8 text-upper milli color-neutral bold">Message</label>
-          <textarea id="message" class="w-1" name="message" placeholder="Type a message"></textarea>
+          <textarea name="message" placeholder="Type a message" id="message" class="w-1"></textarea>
         </div>
       </fieldset>
-      <button class="btn" type="submit">Send</button>
+      <input type="hidden" name="_next" value="//mywebsite.com/thanks.html" />
+      <button class="btn" type="submit">Send message</button>
     </form>
 
   </div>

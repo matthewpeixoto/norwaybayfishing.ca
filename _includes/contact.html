@@ -10,20 +10,30 @@
 
         <div class="push">
           <label for="name" class="push-1-8 text-upper milli color-neutral bold">Name</label>
-          <input id="name" class="w-1" name="name" placeholder="Bob Izumi">
+          <input type="text" name="name" placeholder="Bob Izumi" id="name" class="w-1">
         </div>
 
         <div class="push">
           <label for="email" class="push-1-8 text-upper milli color-neutral bold">Email</label>
-          <input id="email" class="w-1" name="email" placeholder="bobizumi@gmail.com">
+          <input type="email" name="_replyto" placeholder="bob@izumi.com" id="email" class="w-1">
+        </div>
+
+        <div class="push">
+          <label for="subject" class="push-1-8 text-upper milli color-neutral bold">Subject</label>
+          <select name="_subject" id="subject">
+            <option>Manitoba</option>
+            <option>Ontario</option>
+            <option>Quebec</option>
+          </select>
         </div>
 
         <div class="push-1-2">
           <label for="message" class="push-1-8 text-upper milli color-neutral bold">Message</label>
-          <textarea id="message" class="w-1" name="message" placeholder="Type a message"></textarea>
+          <textarea name="message" placeholder="Type a message" id="message" class="w-1"></textarea>
         </div>
       </fieldset>
-      <button class="btn" type="submit">Send</button>
+      <input type="hidden" name="_next" value="//mywebsite.com/thanks.html" />
+      <button class="btn" type="submit">Send message</button>
     </form>
 
   </div>
