@@ -2,19 +2,23 @@
   margin-bottom: 0;
 }
 
+.unit-package {
+  border-radius: 4px;
+}
+
 @media only screen and (min-width: 67em) {
 
   .trip-3 {
-    border-right: 1rem solid var(--color-ultralight);
+    border-right: 1rem solid var(--color-brand);
   }
 
   .trip-4 {
-     border-left: .5rem solid var(--color-ultralight);
-     border-right: .5rem solid var(--color-ultralight);
+     border-left: .5rem solid var(--color-brand);
+     border-right: .5rem solid var(--color-brand);
   }
 
   .trip-5 {
-    border-left: 1rem solid var(--color-ultralight);
+    border-left: 1rem solid var(--color-brand);
   }
 
 }
