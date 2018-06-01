@@ -3242,7 +3242,7 @@ background-position: center;
   height: 90vh;
   min-height: 550px;
 
-  background-image: url('/images/hero.jpg');
+  background-image: url('http://via.placeholder.com/2560x1440');
   background-size: cover;
   background-position: center center;
 
