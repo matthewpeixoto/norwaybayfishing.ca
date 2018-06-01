@@ -21,7 +21,7 @@ a:focus, [tabindex="0"]:focus {
   font-weight: 900;
   text-transform: uppercase;
   box-shadow: 0 4px 6px rgba(0, 77, 64, .11), 0 1px 3px rgba(0,0,0,.08);
-  transition: all .15s ease;
+  transition: box-shadow .15s ease, transform .15s ease;
 }
 
 .btn:focus {
@@ -39,4 +39,18 @@ a:focus, [tabindex="0"]:focus {
 .btn:active {
   background-color: var(--color-accent-active);
   transform: translateY(1px);
+}
+
+.btn-link,
+.btn-link:hover,
+.btn-link:active {
+  background-color: transparent;
+  box-shadow: none;
+  transform: none;
+  color: var(--color-accent);
+  text-transform: none;
+}
+
+.btn-link:hover {
+  text-decoration: underline;
 }

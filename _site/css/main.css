@@ -67,6 +67,10 @@ h2 {
   background-position: center center;
 }
 
+.list-group-inline > dt, .list-group--inline > dt {
+  width: auto;
+}
+
 @media only screen and (min-width: 46em) {
 
   .m-text-left {
@@ -116,6 +120,11 @@ h2 {
 
   .l-wrapper {
     max-width: 58em;
+  }
+
+  .l-gutter-1-2 {
+    padding-left: .75rem;
+    padding-right: .75rem;
   }
 
 }
