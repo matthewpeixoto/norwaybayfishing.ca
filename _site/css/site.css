@@ -2998,6 +2998,11 @@ h2 {
   margin-bottom: 5.2rem
 }
 
+.border-t {
+  border-top: 1px solid #e0e0e0;
+}
+
+
 .border-b {
   border-bottom: 1px solid #e0e0e0;
 }
@@ -3235,6 +3240,7 @@ background-position: center;
 
 .banner {
   height: 90vh;
+  min-height: 550px;
 
   background-image: url('/images/hero.jpg');
   background-size: cover;

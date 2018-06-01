@@ -1,5 +1,6 @@
 .banner {
   height: 90vh;
+  min-height: 550px;
 
   background-image: url('{{site.baseurl}}/images/hero.jpg');
   background-size: cover;

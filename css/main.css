@@ -41,6 +41,11 @@ h2 {
   margin-bottom: 5.2rem
 }
 
+.border-t {
+  border-top: 1px solid #e0e0e0;
+}
+
+
 .border-b {
   border-bottom: 1px solid #e0e0e0;
 }
