@@ -1,8 +1,8 @@
 .banner {
   height: 90vh;
-  min-height: 550px;
+  min-height: 505px;
 
-  background-image: url('http://via.placeholder.com/2560x1440');
+  background-image: url('{{site.baseurl}}/images/hero.jpg');
   background-size: cover;
   background-position: center center;
 
