@@ -82,6 +82,10 @@ h2 {
     text-align: left;
   }
 
+  .m-text-right {
+    text-align: right;
+  }
+
   .pad-t-4 {
     padding-top: 5.6rem;
   }

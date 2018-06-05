@@ -35,6 +35,14 @@ select {
   height: calc(1.3rem + .325rem + .325rem);
 }
 
+.contact-social {
+  color: #888;
+}
+
+.contact-social:hover {
+  color: var(--color-accent);
+}
+
 @media only screen and (min-width: 46em) {
 
   input,
