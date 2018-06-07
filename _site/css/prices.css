@@ -16,6 +16,10 @@
   background-position: center;
  }
 
+ .package-hours {
+  letter-spacing: .15em;
+ }
+
 @media only screen and (min-width: 67em) {
 
   .trip-3 {
