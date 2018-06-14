@@ -43,7 +43,8 @@ a:focus, [tabindex="0"]:focus {
 
 .btn-link,
 .btn-link:hover,
-.btn-link:active {
+.btn-link:active,
+.btn-link:focus {
   background-color: transparent;
   box-shadow: none;
   transform: none;
@@ -53,4 +54,14 @@ a:focus, [tabindex="0"]:focus {
 
 .btn-link:hover {
   text-decoration: underline;
+}
+
+.btn-link:focus {
+  outline: 3px solid var(--color-focus);
+}
+
+@media only screen and (min-width: 25em) {
+
+  
+
 }

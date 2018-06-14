@@ -11,7 +11,7 @@
   --color-dark: #1a1a1a;
   --color-ultradark: #101010;
 
-  --color-text: #1E292F;
+  --color-text: #2A3F4C;
 }
 
 .bg-brand {
@@ -43,7 +43,7 @@
 }
 
 .color-neutral {
-  color: #888;
+  color: #757575;
 }
 
 .color-white {

@@ -21,6 +21,10 @@ h2 {
   font-weight: 800;
 }
 
+strong {
+  font-weight: 400;
+}
+
 .wrapper {
   max-width: 52em;
   width: 87.5%;
@@ -54,7 +58,6 @@ h2 {
   border-top: 1px solid #e0e0e0;
 }
 
-
 .border-b {
   border-bottom: 1px solid #e0e0e0;
 }
@@ -83,6 +86,10 @@ h2 {
 
 .list-group-inline > dt, .list-group--inline > dt {
   width: auto;
+}
+
+.space-letters {
+  /* letter-spacing: .05em; */
 }
 
 @media only screen and (min-width: 46em) {

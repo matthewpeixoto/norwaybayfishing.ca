@@ -1,7 +1,7 @@
 /*
  * Modulifier || Code released under the UNLICENSE
  * Code under other copyrights & licenses listed below.
- * https://modulifier.web-dev.tools/#responsive;images;list-group;embed;icons;hidden;positioning;forms;buttons;accessibility;print
+ * https://modulifier.web-dev.tools/#responsive;images;list-group;embed;icons;hidden;positioning;nice-lists;forms;buttons;accessibility;print
  */
 
 @-moz-viewport { width: device-width; scale: 1; }
@@ -600,6 +600,38 @@ svg.img-flex {
 .height-win-full, .h-w-1 {
   height: 100vh;
   max-height: 46em;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul > li::before {
+  content: "·";
+  float: left;
+  margin-left: -1.6em;
+  width: 1.3em;
+  text-align: right;
+}
+
+ol {
+  counter-reset: ol-simple-numbers;
+  list-style-type: none;
+}
+
+ol > li::before {
+  float: left;
+  margin-left: -1.6em;
+  width: 1.3em;
+  counter-increment: ol-simple-numbers;
+  content: counter(ol-simple-numbers);
+  text-align: right;
+}
+
+.list-group > li::before,
+.list-group-inline > li::before,
+.list-group--inline > li::before {
+  content: none;
 }
 
 /* stylelint-disable no-descending-specificity */
@@ -2978,6 +3010,10 @@ h2 {
   font-weight: 800;
 }
 
+strong {
+  font-weight: 400;
+}
+
 .wrapper {
   max-width: 52em;
   width: 87.5%;
@@ -3011,7 +3047,6 @@ h2 {
   border-top: 1px solid #e0e0e0;
 }
 
-
 .border-b {
   border-bottom: 1px solid #e0e0e0;
 }
@@ -3040,6 +3075,10 @@ h2 {
 
 .list-group-inline > dt, .list-group--inline > dt {
   width: auto;
+}
+
+.space-letters {
+  /* letter-spacing: .05em; */
 }
 
 @media only screen and (min-width: 46em) {
@@ -3117,7 +3156,7 @@ h2 {
   --color-dark: #1a1a1a;
   --color-ultradark: #101010;
 
-  --color-text: #1E292F;
+  --color-text: #2A3F4C;
 }
 
 .bg-brand {
@@ -3149,7 +3188,7 @@ h2 {
 }
 
 .color-neutral {
-  color: #888;
+  color: #757575;
 }
 
 .color-white {
@@ -3250,8 +3289,6 @@ h2 {
   background-image: url('/images/hero.jpg');
   background-size: cover;
   background-position: center center;
-
-  color: #fff;
 }
 
 .hamburger-btn,
@@ -3429,11 +3466,6 @@ h2 {
   margin-bottom: 0;
 }
 
-/* .unit-package {
-  border-radius: 4px;
-}
- */
-
  .text-masked {
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -3447,19 +3479,31 @@ h2 {
   letter-spacing: .15em;
  }
 
+@media only screen and (min-width: 46em) {
+
+   ul > li::before {
+    margin-right: .35rem;
+  }
+
+}
+
 @media only screen and (min-width: 67em) {
 
   .trip-3 {
-    border-right: .5rem solid var(--color-brand);
+    border-right: .25rem solid var(--color-brand);
   }
 
   .trip-4 {
-     border-left: .25rem solid var(--color-brand);
-     border-right: .25rem solid var(--color-brand);
+     border-left: .125rem solid var(--color-brand);
+     border-right: .125rem solid var(--color-brand);
   }
 
   .trip-5 {
-    border-left: .5rem solid var(--color-brand);
+    border-left: .25rem solid var(--color-brand);
+  }
+
+  ul > li::before {
+    margin-right: .375rem;
   }
 
 }
@@ -3502,7 +3546,7 @@ select {
 }
 
 .contact-social {
-  color: #888;
+  color: #757575;
 }
 
 .contact-social:hover {
@@ -3588,7 +3632,8 @@ a:focus, [tabindex="0"]:focus {
 
 .btn-link,
 .btn-link:hover,
-.btn-link:active {
+.btn-link:active,
+.btn-link:focus {
   background-color: transparent;
   box-shadow: none;
   transform: none;
@@ -3600,5 +3645,14 @@ a:focus, [tabindex="0"]:focus {
   text-decoration: underline;
 }
 
+.btn-link:focus {
+  outline: 3px solid var(--color-focus);
+}
+
+@media only screen and (min-width: 25em) {
+
+  
+
+}
 
 
