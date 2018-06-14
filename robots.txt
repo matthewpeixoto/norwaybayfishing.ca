@@ -1,3 +1,0 @@
-Sitemap: https://norwaybayfishing.ca/sitemap.xml
-
-User-Agent: *
