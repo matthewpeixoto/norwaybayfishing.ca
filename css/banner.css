@@ -1,8 +1,16 @@
 .banner {
-  height: 90vh;
+  height: 505px;
   min-height: 505px;
 
   background-image: url('{{site.baseurl}}/images/hero.jpg');
   background-size: cover;
-  background-position: 30% center;
+  background-position: 12% top;
+}
+
+@media only screen and (min-width: 46em) {
+
+  .banner {
+    height: 90vh;
+  }
+
 }
