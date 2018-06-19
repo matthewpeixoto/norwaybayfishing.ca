@@ -4,13 +4,22 @@
 
   background-image: url('{{site.baseurl}}/images/hero.jpg');
   background-size: cover;
-  background-position: 12% center;
+  background-position: 12% bottom;
 }
 
 @media only screen and (min-width: 46em) {
 
   .banner {
     height: 90vh;
+    min-height: 700px;
+  }
+
+}
+
+@media only screen and (min-width: 67em) {
+
+  .banner {
+    background-position: center 60%;
   }
 
 }
