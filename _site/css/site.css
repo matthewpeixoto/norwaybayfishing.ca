@@ -3081,6 +3081,15 @@ strong {
   /* letter-spacing: .05em; */
 }
 
+.credit,
+.credit-link {
+  opacity: .5;
+}
+
+.credit-link:hover {
+  opacity: .8;
+}
+
 @media only screen and (min-width: 46em) {
 
   .m-text-left {
